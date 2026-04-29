@@ -1,0 +1,30 @@
+{
+    "layer": "top",
+    "spacing": 3,
+    "height": 30,
+
+    "margin-top": 6,
+    "margin-right": 6,
+    "margin-bottom": 0,
+    "margin-left": 6,
+
+    "modules-left": [
+        "custom/launcher",
+        "hyprland/workspaces",
+        "custom/cava"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "backlight",
+        "network",
+        "battery",
+    ],
+
+    "include": "~/.config/waybar/modules.jsonc"
+}
