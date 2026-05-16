@@ -20,7 +20,7 @@ configuration {
 	icon-theme: "Papirus";
 /*	cache-dir: ;*/
 	steal-focus: false;
-/*	dpi: -1;*/
+	dpi: 80;
 
 	/*---------- Matching setting ----------*/
 	matching: "normal";
@@ -180,4 +180,8 @@ configuration {
 	me-accept-entry: "MouseDPrimary";
 	me-accept-custom: "Control+MouseDPrimary";
 */
+}
+window {
+    width: 50%;
+    height: 50%;
 }
