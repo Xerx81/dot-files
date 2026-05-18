@@ -1,0 +1,9 @@
+theme = moonfly
+resize-overlay = never
+confirm-close-surface = false
+
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+shift+j=scroll_page_down
+keybind = ctrl+shift+k=scroll_page_up
+keybind = alt+v=inspector:toggle
+keybind = ctrl+shift+w=new_split:right
