@@ -27,8 +27,14 @@ index=$(( (index + 1) % count ))
 # Save new index
 echo "$index" > "$STATE_FILE"
 
-# Kill previous swaybg instance
-pkill swaybg
+# --- HYPRPAPER TRANSITION ---
+NEXT_WALL="${wallpapers[$index]}"
 
-# Start new wallpaper
-swaybg -i "${wallpapers[$index]}" -m fill &
+# 1. Preload the next image into memory
+hyprctl hyprpaper preload "$NEXT_WALL"
+
+# 2. Set it on all monitors (empty string before the comma target all monitors)
+hyprctl hyprpaper wallpaper ",$NEXT_WALL"
+
+# 3. Free up RAM by unloading any wallpapers not currently active
+hyprctl hyprpaper unload unused
