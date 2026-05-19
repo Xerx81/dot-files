@@ -1,4 +1,4 @@
-theme = moonfly
+theme = Gruvbox Dark Hard
 resize-overlay = never
 confirm-close-surface = false
 shell-integration-features = no-cursor
