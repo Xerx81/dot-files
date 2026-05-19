@@ -21,7 +21,6 @@
         "on-click-right": "playerctl next",
         "on-click-left": "playerctl previous",
         "tooltip": false,
-        "interval": 0.1
     },
 
     "clock": {
