@@ -5,25 +5,25 @@
  */
 
 * {
-    bg0: #282828;
+    bg0: #1d2021;
     bg1: #32302f;
-    grey0: #7c6f64;
+    grey0: #665c54;
     fg0: #d4be98;
 
     blue: #7daea3;
     red: #ea6962;
     orange: #e78a4e;
     green: #a9b665;
-    bgStatusline3: #504945;
+    bgStatusline3: #d2d6ce;
 
     background-color: @bg0;
 }
 
 window {
-    height: 400;
-    width: 550;
+    height: 350;
+    width: 500;
 
-    border: 3;
+    border: 2;
     // border-radius: 10;
     border-color: @bgStatusline3;
 }
