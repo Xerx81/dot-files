@@ -22,6 +22,7 @@
         "tray",
         "pulseaudio",
         "backlight",
+        "custom/bluetooth",
         "network",
         "battery",
     ],

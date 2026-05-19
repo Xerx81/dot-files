@@ -64,6 +64,14 @@
         "interval": 2,
     },
 
+    "custom/bluetooth": {
+        "format": "{}",
+        "interval": 2, // Updates every 5 seconds
+        "return-type": "json",
+        "exec": "~/.config/waybar/scripts/bluetooth.sh",
+        "on-click": "blueman-manager", // Opens your bluetooth manager on click
+    },
+
     "pulseaudio": {
         "scroll-step": 1,
         "format": "{icon} {volume: >2}%",

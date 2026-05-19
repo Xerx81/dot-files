@@ -91,3 +91,19 @@ tooltip {
     margin: 0px 2px;
     padding: 1.6px 6.4px;
 }
+
+#custom-bluetooth {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    margin: 0 5px;
+    border-radius: 15px;
+}
+
+/* If using Option 1, you can style the states specifically: */
+#custom-bluetooth.connected {
+    color: #89b4fa; /* Soft blue when connected */
+}
+
+#custom-bluetooth.disabled {
+    color: #6c7086; /* Dimmed out when off */
+}
