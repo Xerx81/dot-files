@@ -1,6 +1,9 @@
 theme = moonfly
 resize-overlay = never
 confirm-close-surface = false
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = false
 
 keybind = ctrl+shift+n=new_window
 keybind = ctrl+shift+j=scroll_page_down
