@@ -29,7 +29,6 @@ return {
                 "ast_grep",
                 "clangd",
                 "cssls",
-                "gopls",
                 "html",
                 "lua_ls",
                 "pyright",
