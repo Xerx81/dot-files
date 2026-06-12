@@ -1,0 +1,28 @@
+{
+  "activeBackend": "mpvpaper",
+  "automationMode": "random",
+  "automationTime": 300,
+  "fillMode": "fit",
+  "mpvSocket": "/tmp/mpv-socket",
+  "profile": "default",
+  "volume": 1,
+  "wallpapersFolder": "/home/yuvraj/Pictures/Wallpapers/Live",
+  "thumbCacheReady": true,
+  "eDP-1": {
+    "currentWallpaper": "/home/yuvraj/Pictures/Wallpapers/Live/abi-toads-terrarium.1920x1080.mp4",
+    "noctaliaWallpaper": "/home/yuvraj/Pictures/Wallpapers/711 lighthouse.jpg",
+    "isPlaying": true,
+    "volume": 1,
+    "automation": false,
+    "automationMode": "random",
+    "automationTime": 300,
+    "hardwareAcceleration": true,
+    "profile": "fast",
+    "fillMode": "fit",
+    "orientation": 0,
+    "isMuted": false
+  },
+  "enabled": true,
+  "monitorSpecific": false,
+  "automationCustomTime": []
+}
