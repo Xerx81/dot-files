@@ -9,8 +9,8 @@
   "wallpapersFolder": "/home/yuvraj/Pictures/Wallpapers/Live",
   "thumbCacheReady": true,
   "eDP-1": {
-    "currentWallpaper": "/home/yuvraj/Pictures/Wallpapers/Live/lone-wanderer-under-giant-clouds.mp4",
-    "noctaliaWallpaper": "/home/yuvraj/Pictures/Wallpapers/711 lighthouse.jpg",
+    "currentWallpaper": "/home/yuvraj/Pictures/Wallpapers/Live/silent-katan-forest-samurai.mp4",
+    "noctaliaWallpaper": "/home/yuvraj/Pictures/Wallpapers/japan.png",
     "isPlaying": true,
     "volume": 1,
     "automation": false,
@@ -22,7 +22,7 @@
     "orientation": 0,
     "isMuted": false
   },
-  "enabled": true,
+  "enabled": false,
   "monitorSpecific": false,
   "automationCustomTime": []
 }
