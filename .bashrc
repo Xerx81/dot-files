@@ -34,4 +34,7 @@ dl720() {
     fi
 }
 
+# Custom alias for undervolting ryzenadj service
+alias undervolt='sudo systemctl restart ryzenadj.service'
+
 export PATH=$PATH:/home/yuvraj/.spicetify

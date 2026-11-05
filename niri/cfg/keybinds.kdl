@@ -10,10 +10,10 @@ binds {
 
     // ─── Applications ───
     Mod+Return                          hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
-    Mod+D                               hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
-    Mod+B                               hotkey-overlay-title="Toggle Noctalia: noctalia shell" { spawn-sh "pgrep -x qs >/dev/null && pkill qs || qs -c noctalia-shell"; }
-    Mod+M                               hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
-    Mod+Shift+Q                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+    Mod+D                               hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    Mod+B                               hotkey-overlay-title="Toggle Noctalia" { spawn-sh "pkill -x noctalia || noctalia"; }
+    Mod+M                               hotkey-overlay-title="Lock Screen: noctalia lock" { spawn "noctalia" "msg" "session" "lock"; }
+    Mod+Shift+Q                         hotkey-overlay-title="Session Menu: noctalia session" { spawn "noctalia" "msg" "panel-toggle" "session-menu"; }
 
     // Please choose your own file manager.
     Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn "nautilus"; }
